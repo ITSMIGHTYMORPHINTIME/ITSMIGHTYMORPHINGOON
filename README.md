@@ -303,7 +303,7 @@ body {
                     originalCtx.drawImage(img, 0, 0);
                     
                     // Create outlined canvas
-                    const outlineWidth = 11;
+                    const outlineWidth = 13;
                     const outlinedCanvas = document.createElement('canvas');
                     const ctx = outlinedCanvas.getContext('2d');
                     
